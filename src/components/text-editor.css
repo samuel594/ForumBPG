@@ -1,0 +1,39 @@
+#text-editor{
+  width: 100%;
+  height: 200px;
+}
+.text-editor.btn-group{
+  padding: 5px;
+  border: 1px solid #cbcfd3;
+  border-bottom: none;
+}
+#text-editor .editor{
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  resize: none;
+  border: 1px solid #cbcfd3
+}
+#text-editor .editor:focus{
+  outline: 0;
+}
+
+.btn-subgroup:not(:first-child){
+  margin-left: 15px
+}
+.btn-subgroup .attr_btn{
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: 0;
+}
+.btn-subgroup .attr_btn:hover{
+  background-color: rgb(235, 235, 235);
+}
+.btn-subgroup .attr_btn svg{
+  transform: scale(1.5);
+}
+
+.bold{
+  font-weight: bold;
+}

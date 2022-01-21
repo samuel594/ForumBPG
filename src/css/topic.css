@@ -1,0 +1,23 @@
+#topic{
+  width: 100%;
+  min-height: 100%;
+}
+
+.topic_post, .topic_comment{
+  min-height: 700px;
+}
+.topic_content{
+  width: calc(100% - 212px);
+}
+.topic_top{
+  height: 50px
+}
+.topic_text{
+  height: calc(100% - 50px);
+}
+.topic_author-info{
+  background-color: rgb(250, 250, 250);
+  width: 212px;
+  height: 100%;
+}
+
